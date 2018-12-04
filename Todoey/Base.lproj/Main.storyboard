@@ -31,7 +31,14 @@
                             <outlet property="delegate" destination="r3C-wp-yOK" id="qYT-Xx-phy"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="aTc-ZE-wNq"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="aTc-ZE-wNq">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="sf4-hr-A3d">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="r3C-wp-yOK" id="UUd-94-4Fm"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZ8-cF-Gyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
